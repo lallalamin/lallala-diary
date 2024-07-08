@@ -1,4 +1,4 @@
-# My Coding Blog
+# Lallala Diary
 
 Welcome to my coding blog! This repository contains the source code for my personal blog website where I update and journal about my learning journey, coding projects, and other related topics.
 
