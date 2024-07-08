@@ -1,13 +1,13 @@
-# Lallala Diary
+# 📓 Lallala Diary ✏️🌺
 
 Welcome to my coding blog! This repository contains the source code for my personal blog website where I update and journal about my learning journey, coding projects, and other related topics.
 
 ## Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Contact](#contact)
+🌠 [About](#about) <br>
+🌠 [Features](#features) <br>
+🌠 [Installation](#installation) <br>
+🌠 [Contact](#contact)
 
 ## About
 
