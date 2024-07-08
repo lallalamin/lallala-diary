@@ -34,10 +34,18 @@ const page = () => {
         formData.append('image', image);
         const response = await axios.post('/api/blog', formData);
         if(response.data.success){
-            toast.success(response.data.msg)
+            toast.success(response.data.msg);
+            setImage(false);
+            setData({
+                title:"",
+                description:"",
+                category:"Startup",
+                author:"Mari Hirota",
+                authorImg:"/author_img.png"
+            });
         }
         else{
-            toast.error("Error")
+            toast.error("Error");
         }
     }
 
@@ -57,7 +65,7 @@ const page = () => {
             <select name="category" onChange={onChangeHandler} value={data.category} className='w-40 mt-4 px-4 py-3 border text-grey-500'>
                 <option value="Startup">Startup</option>
                 <option value="Technology">Technology</option>
-                <option value="LifeStyle">LifeStyle</option>
+                <option value="Lifestyle">Lifestyle</option>
             </select>
             <br />
             <button type='submit' className='mt-8 w-40 h-12 bg-black text-white'>ADD</button>

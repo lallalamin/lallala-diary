@@ -10,13 +10,7 @@ import Link from 'next/link';
     const [data, setData] = useState(null);
 
     const fetchBlogData = ()=>{
-        for(let i = 0; i < blog_data.length; i ++){
-            if(Number(params.id)===blog_data[i].id){
-                setData(blog_data[i]);
-                console.log(blog_data[i]);
-                break
-            }
-        }
+        
     }
 
     useEffect(()=>{
