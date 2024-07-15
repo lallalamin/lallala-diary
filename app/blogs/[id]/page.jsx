@@ -6,7 +6,7 @@ import Footer from '@/Components/Footer';
 import Link from 'next/link';
 import axios from 'axios';
 
-    const page = ({params}) => {
+    const Page = ({params}) => {
 
     const [data, setData] = useState(null);
 
@@ -59,4 +59,4 @@ import axios from 'axios';
         </>:<></>
     )
 }
-export default page
+export default Page
