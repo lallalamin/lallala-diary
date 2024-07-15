@@ -11,7 +11,7 @@ Welcome to my coding blog! This repository contains the source code for my perso
 
 ## About
 
-This blog is a platform for me to share what I've learned about coding and technology. I will be posting articles, tutorials, and updates on various projects I'm working on.
+This blog is a platform for me to share what I've learned about coding and technology. I will be posting articles, tutorials, and updates on various projects I'm working on and what I learn.
 
 ## Features
 
