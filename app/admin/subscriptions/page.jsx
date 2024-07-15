@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 
 const Page = () => {
 
-  const [emails, setEmails] = useState([]);
+  const [emails, setEmails] = useState([]); 
 
   const fetchEmails = async() =>{
     const response = await axios.get('/api/email');
