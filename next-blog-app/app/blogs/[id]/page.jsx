@@ -43,20 +43,9 @@ import axios from 'axios';
         </div>
         <div className='mx-5 max-w-[800px] md:mx-auto mt-[-100px] mb-10'>
             <Image className='border-4 border-white' src={data.image} width={1280} height={720} alt='image'/>
-            <h1 className='my-8 text-[26px] font-semibold'>Introduction:</h1>
-            <p>{data.description}</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Step 1: Self reflection and goal setting</h3>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Step 1: Self reflection and goal setting</h3>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Step 1: Self reflection and goal setting</h3>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <h3 className='my-5 text-[18px] font-semibold'>Conclusion:</h3>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
-            <p className='my-3'>Before you can start thinking about your goal, we first have to reflection on what we had done so far and what can we improve from that.</p>
+            
+            <div className='blog-content' dangerouslySetInnerHTML={{__html:data.description}}></div>
+
             <div className='my-24'>
                 <p className='text-black font font-semibold my-4'>Share this article on social media</p>
                 <div className='flex'>
