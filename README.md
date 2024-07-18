@@ -15,10 +15,10 @@ This blog is a platform for me to share what I've learned about coding and techn
 
 ## Features
 
-- Blog posts on coding and technology
-- Image support for blog posts
-- Responsive design for various devices
-- Easy to update and manage content
+- Blog posts on coding and technology.
+- Image support for blog posts.
+- Responsive design for various devices.
+- Easy to update and manage content.
 
 ## Installation
 
