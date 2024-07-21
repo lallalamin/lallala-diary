@@ -39,17 +39,15 @@ const Page = () => {
       <div className='relative max-w-[600px] h-[80vh] overflow-x-auto mt-4 border border-gray-400 scrollbar-hide'>
         <table className='w-full text-sm text-gray-500'>
           <thead className='text-xs text-left text-gray-700 uppercase bg-gray-50'>
-            <tr>
-              <td scope='col' className='px-5 py-3'>
-                Email Subscription
-              </td>
-              <td scope='col' className='hidden sm:block px-5 py-3'>
-                Data
-              </td>
-              <td scope='col' className='px-5 py-3'>
-                Action
-              </td>
-            </tr>
+            <th scope='col' className='px-5 py-3'>
+              Email Subscription
+            </th>
+            <th scope='col' className='hidden sm:block px-5 py-3'>
+              Data
+            </th>
+            <th scope='col' className='px-5 py-3'>
+              Action
+            </th>
           </thead>
           <tbody>
             {emails.map((item, index)=>{
