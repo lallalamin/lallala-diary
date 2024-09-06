@@ -1,5 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import { assets } from "@/Assets/assets";
 
 const outfit = Outfit({ subsets: ["latin"], weight:["400", "500", "600", "700"] });
 
@@ -11,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" href="@/Assets/favicon.png"></link>
+      </head>
       <body className={outfit.className}>{children}</body>
     </html>
   );
